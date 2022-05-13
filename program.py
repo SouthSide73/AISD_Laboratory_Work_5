@@ -67,7 +67,7 @@ try:
     print("Результат:")
     for i in A:         # Вывод результата
         for j in i:
-            print("%5d" % j, end=' ')
+            print("%5d" % round(j), end=' ')
         print()
     finish = time.time()
     result = finish - program
